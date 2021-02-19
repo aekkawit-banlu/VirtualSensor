@@ -1,7 +1,7 @@
 # VirtualSensor
-VirtualSensor is a module built on Xposed that creates several sensors on devices which do not have them. It does sensor fusion using the values from the accelerometer and the compass which are the two main requirements for this module.
+VirtualSensor เป็นโมดูลที่สร้างขึ้นจาก Xposed ซึ่งสร้างเซ็นเซอร์หลายตัวบนอุปกรณ์ที่ไม่มี ทำเซ็นเซอร์ฟิวชั่นโดยใช้ค่าจากมาตรความเร่งและเข็มทิศซึ่งเป็นข้อกำหนดหลักสองประการสำหรับโมดูลนี้
 
-There are currently 5 sensors emulated :
+ขณะนี้มีพระปรมาภิไธยย่อเล็กย่อ 5 ตัว:
 * TYPE_ROTATION_VECTOR
 * TYPE_GYROSCOPE
 * TYPE_GEOMAGNETIC_ROTATION_VECTOR
